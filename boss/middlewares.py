@@ -123,11 +123,12 @@ class jobmiddleware:
         time.sleep(5)
         # 判断当前页面是否正常，如果正常则进入下一页，否则不断刷新
         if offset=='true':
+            # 等待加载完成 分页状态   
             self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.options-pages>a:last-child')))
             self.driver.find_element(By.CSS_SELECTOR,"div.options-pages>a:last-child").click()
         else:
             self.driver.get(request.url)
-        # 滑动验证码
+        # 等待加载完成 直到查找到岗位标签
         self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li.job-card-wrapper')))
         return scrapy.http.HtmlResponse(url=request.url, body=self.driver.page_source,encoding="utf-8",request=request,status=200)  # Called for each request that goes through the downloader
 
