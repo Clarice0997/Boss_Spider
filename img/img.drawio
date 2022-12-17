@@ -1,0 +1,113 @@
+<mxfile host="65bd71144e">
+    <diagram id="eBxYXELY6byqIT9UIokw" name="图形界面模块流程图">
+        <mxGraphModel dx="1293" dy="955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;sketch=0;shadow=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="生成GUI界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=1;shadow=1;sketch=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="322" y="151" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="输入岗位名" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="247" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="运行爬虫程序" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="343" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="运行条形图模块" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="439" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="展示条形图" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="爬虫模块流程图" id="OY1eiYfIYbuWS09gHf3W">
+        <mxGraphModel dx="1099" dy="812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-0"/>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-1" parent="UCAcqEbHo8z8DOgMn5ua-0"/>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-2" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;sketch=0;shadow=1;" edge="1" parent="UCAcqEbHo8z8DOgMn5ua-1" source="UCAcqEbHo8z8DOgMn5ua-3" target="UCAcqEbHo8z8DOgMn5ua-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-3" value="运行爬虫模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=1;shadow=1;sketch=0;fontSize=14;fontStyle=1" vertex="1" parent="UCAcqEbHo8z8DOgMn5ua-1">
+                    <mxGeometry x="322" y="151" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-12" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="UCAcqEbHo8z8DOgMn5ua-1" source="UCAcqEbHo8z8DOgMn5ua-5" target="UCAcqEbHo8z8DOgMn5ua-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-5" value="初始化爬虫程序" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="UCAcqEbHo8z8DOgMn5ua-1">
+                    <mxGeometry x="322" y="247" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-14" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="UCAcqEbHo8z8DOgMn5ua-1" source="UCAcqEbHo8z8DOgMn5ua-11" target="UCAcqEbHo8z8DOgMn5ua-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-11" value="爬取岗位信息" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="UCAcqEbHo8z8DOgMn5ua-1">
+                    <mxGeometry x="322" y="343" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-16" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="UCAcqEbHo8z8DOgMn5ua-1" source="UCAcqEbHo8z8DOgMn5ua-13" target="UCAcqEbHo8z8DOgMn5ua-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-13" value="存入MongoDB" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="UCAcqEbHo8z8DOgMn5ua-1">
+                    <mxGeometry x="322" y="439" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="UCAcqEbHo8z8DOgMn5ua-15" value="结束运行" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="UCAcqEbHo8z8DOgMn5ua-1">
+                    <mxGeometry x="322" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="条形图模块流程图" id="MdQTcgwNTzSU3KFQbJqd">
+        <mxGraphModel dx="1099" dy="812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-0"/>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-1" parent="EECUCDBMt0QnnGSLYyKK-0"/>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-2" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;sketch=0;shadow=1;" edge="1" parent="EECUCDBMt0QnnGSLYyKK-1" source="EECUCDBMt0QnnGSLYyKK-3" target="EECUCDBMt0QnnGSLYyKK-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-3" value="运行条形图模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=1;shadow=1;sketch=0;fontSize=14;fontStyle=1" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="151" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-12" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="EECUCDBMt0QnnGSLYyKK-1" source="EECUCDBMt0QnnGSLYyKK-5" target="EECUCDBMt0QnnGSLYyKK-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-5" value="连接MongoDB" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="247" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-14" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="EECUCDBMt0QnnGSLYyKK-1" source="EECUCDBMt0QnnGSLYyKK-11" target="EECUCDBMt0QnnGSLYyKK-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-11" value="获取数据" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="343" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-16" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="EECUCDBMt0QnnGSLYyKK-1" source="EECUCDBMt0QnnGSLYyKK-13" target="EECUCDBMt0QnnGSLYyKK-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-13" value="构建数据对象" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="439" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-18" value="" style="edgeStyle=none;sketch=0;html=1;shadow=1;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="EECUCDBMt0QnnGSLYyKK-1" source="EECUCDBMt0QnnGSLYyKK-15" target="EECUCDBMt0QnnGSLYyKK-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-15" value="绘制条形图" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="535" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="EECUCDBMt0QnnGSLYyKK-17" value="保存条形图" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=1;shadow=1;sketch=0;fontStyle=1;" vertex="1" parent="EECUCDBMt0QnnGSLYyKK-1">
+                    <mxGeometry x="322" y="631" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
