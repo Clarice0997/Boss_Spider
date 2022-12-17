@@ -107,26 +107,29 @@ class BossDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+# 岗位页面下载中间件 
 class jobmiddleware:
     def __init__(self):
+        # 实例化浏览器对象
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.wait = WebDriverWait(self.driver, 50)
 
-    def __del__(self):
-        self.driver.close()
-
+    # 反爬处理
     def process_request(self, request, spider):
         offset = request.meta['flag']
         print(f'offset---{offset}')
         time.sleep(5)
+        # 判断当前页面是否正常，如果正常则进入下一页，否则不断刷新
         if offset=='true':
             self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.options-pages>a:last-child')))
             self.driver.find_element(By.CSS_SELECTOR,"div.options-pages>a:last-child").click()
         else:
             self.driver.get(request.url)
-        # html = self.driver.page_source
+        # 滑动验证码
         self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li.job-card-wrapper')))
-        return scrapy.http.HtmlResponse(url=request.url, body=self.driver.page_source,encoding="utf-8",
-                                        request=request,
-                                        status=200)  # Called for each request that goes through the downloader
+        return scrapy.http.HtmlResponse(url=request.url, body=self.driver.page_source,encoding="utf-8",request=request,status=200)  # Called for each request that goes through the downloader
+
+    def __del__(self):
+        self.driver.close()

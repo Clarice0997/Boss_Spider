@@ -7,13 +7,18 @@ import scrapy
 
 
 class BossItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    # 搜索岗位名
     jobkwd=scrapy.Field()
-    jobName=scrapy.Field() #岗位名称
-    cityName=scrapy.Field()#工作区域
-    companyName=scrapy.Field()#招聘单位
-    salaryDesc=scrapy.Field()#薪酬
-    jobExperience=scrapy.Field()#工作经验年限
-    jobDegree=scrapy.Field()  #学历
+    # 岗位名称
+    jobName=scrapy.Field()
+    # 工作区域
+    cityName=scrapy.Field()
+    # 招聘单位
+    companyName=scrapy.Field()
+    # 薪酬
+    salaryDesc=scrapy.Field()
+    # 工作经验年限
+    jobExperience=scrapy.Field()
+    # 学历
+    jobDegree=scrapy.Field()
 
